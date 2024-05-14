@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1248px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+input {
+  outline: none;
+}
+
+button {
+  outline: none;
+}
+
+.header {
+  width: 100%;
+  background: white;
+}
+.header .navbar {
+  display: flex;
+  height: 56px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .navbar .navbar__logo {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.header .navbar .navbar__collection {
+  display: flex;
+  gap: 30px;
+}
+.header .navbar .navbar__collection .navbar__item {
+  color: #000;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.header .navbar .navbar__collection .navbar__item:hover {
+  color: #01bab3;
+}
+.header .navbar .navbar__collection .navbar__item:hover:active {
+  opacity: 7;
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+.header .navbar .navbar__collection .navbar__btn {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  background: none;
+  padding: 15px;
+  font-size: 14px;
+}
+.header .navbar .navbar__collection .navbar__btn:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  color: #01bab3;
+}
+.header .navbar .navbar__collection .navbar__btn:hover:active {
+  opacity: 7;
+  transform: scale(0.9);
+}
+
+.main {
+  width: 100%;
+  background: #f4f8fa;
+  height: 1000px;
+}
+.main .wrapper {
+  padding-top: 24px;
+}
+.main .wrapper .card {
+  box-shadow: 0 0 10px rgba(221, 221, 221, 0.6);
+  width: 496px;
+  height: 849px;
+  background: #fff;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.main .wrapper .card .card__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding-top: 40px;
+  font-size: 25px;
+}
+.main .wrapper .card .card__totle {
+  margin-top: 24px;
+  text-align: center;
+}
+.main .wrapper .card .card__link {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 16px;
+}
+.main .wrapper .card .name__last__name {
+  margin-top: 56px;
+  padding: 0 40px;
+  display: flex;
+  gap: 113px;
+}
+.main .wrapper .card .card__input {
+  height: 48px;
+  margin-top: 8px;
+  padding: 0 40px;
+  display: flex;
+  gap: 16px;
+}
+.main .wrapper .card .card__input .name {
+  width: 200px;
+  padding: 0 16px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+}
+.main .wrapper .card .birth__date {
+  margin-top: 24px;
+  padding-left: 40px;
+}
+.main .wrapper .card .birth__date .date {
+  width: 416px;
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  margin-top: 8px;
+  padding: 0 14px;
+}
+.main .wrapper .card .gender {
+  margin-top: 24px;
+  padding-left: 40px;
+}
+.main .wrapper .card .genders {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+  padding-left: 40px;
+}
+.main .wrapper .card .genders .gen {
+  border-radius: 6px;
+  padding: 15px;
+  width: 200px;
+  border: 1px solid #d9d9d9;
+}
+.main .wrapper .card .skype {
+  margin-top: 24px;
+  padding-left: 40px;
+}
+.main .wrapper .card .skype .skype__type {
+  width: 416px;
+  height: 48px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  padding: 0 14px;
+}
+.main .wrapper .card .card__btn {
+  margin-top: 24px;
+  padding-left: 40px;
+}
+.main .wrapper .card .card__btn .btn {
+  width: 416px;
+  height: 48px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background: #01bab3;
+  padding: 0 14px;
+}
+.main .wrapper .card .card__btn .btn:hover {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main .wrapper .card .card__btn .btn:hover:active {
+  opacity: 7;
+  transform: scale(0.9);
+  background: #d9d9d9;
+}/*# sourceMappingURL=main.css.map */

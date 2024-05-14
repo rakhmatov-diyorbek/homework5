@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1248px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+input {
+  outline: none;
+}
+button {
+  outline: none;
+}
+.header {
+  width: 100%;
+  background: #ffff;
+  .navbar {
+    display: flex;
+    height: 56px;
+    align-items: center;
+    justify-content: space-between;
+    .navbar__logo {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+    }
+    .navbar__collection {
+      display: flex;
+      gap: 30px;
+      .navbar__item {
+        color: #000;
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        &:hover {
+          color: #01bab3;
+       
+        }
+      }
+      .navbar__btn {
+        display: flex;
+        align-items: center;
+        height: 24px;
+        border: 1px solid #d9d9d9;
+        border-radius: 5px;
+        background: none;
+        padding: 15px;
+        font-size: 14px;
+        &:hover {
+          cursor: pointer;
+          transition: 0.2s;
+
+          color: #01bab3;
+          &:active {
+            opacity: 7;
+            transform: scale(0.9);
+          }
+        }
+      }
+    }
+  }
+}
+.main {
+  width: 100%;
+  background: #f4f8fa;
+  height: 1000px;
+  .wrapper {
+    padding-top: 24px;
+    .card {
+      width: 496px;
+      height: 641px;
+      background: #fff;
+      margin-top: 50px;
+      border-radius: 10px;
+      .card__logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        padding-top: 40px;
+        font-size: 25px;
+      }
+      .card__totle {
+        margin-top: 24px;
+        text-align: center;
+      }
+      .card__link {
+        display: flex;
+        justify-content: center;
+        gap: 14px;
+        margin-top: 16px;
+      }
+    }
+    .email {
+      padding: 0 25px;
+      margin-top: 39px;
+      .email__inp {
+        margin-top: 8px;
+        border-radius: 6px;
+        border: 1px solid #d9d9d9;
+        width: 415px;
+        height: 45px;
+        padding-left: 15px;
+      }
+    }
+    .last__btn {
+      padding: 0 25px;
+      margin-top: 39px;
+      .btn {
+        margin-top: 88px;
+        border-radius: 6px;
+        background: #01bab3;
+        border: none;
+        color: #fff;
+        width: 415px;
+        height: 45px;
+        padding-left: 15px;
+        &:hover {
+          cursor: pointer;
+          transition: 0.3s;
+
+          &:active {
+            opacity: 7;
+            transform: scale(0.9);
+            background: #d9d9d9;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1248px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+input {
+  outline: none;
+}
+
+button {
+  outline: none;
+}
+
+.header {
+  width: 100%;
+  background: white;
+}
+.header .navbar {
+  display: flex;
+  height: 56px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .navbar .navbar__logo {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.header .navbar .navbar__collection {
+  display: flex;
+  gap: 30px;
+}
+.header .navbar .navbar__collection .navbar__item {
+  color: #000;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.header .navbar .navbar__collection .navbar__item:hover {
+  color: #01bab3;
+}
+.header .navbar .navbar__collection .navbar__item:hover:active {
+  opacity: 7;
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+.header .navbar .navbar__collection .navbar__btn {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  background: none;
+  padding: 15px;
+  font-size: 14px;
+}
+.header .navbar .navbar__collection .navbar__btn:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  color: #01bab3;
+}
+.header .navbar .navbar__collection .navbar__btn:hover:active {
+  opacity: 7;
+  transform: scale(0.9);
+}
+
+.main {
+  width: 100%;
+  background: #f4f8fa;
+  height: 1000px;
+}
+.main .wrapper {
+  padding-top: 24px;
+}
+.main .wrapper .card {
+  width: 496px;
+  height: 641px;
+  background: #fff;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.main .wrapper .card .card__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding-top: 40px;
+  font-size: 25px;
+}
+.main .wrapper .card .card__totle {
+  margin-top: 24px;
+  text-align: center;
+}
+.main .wrapper .card .card__link {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 16px;
+}
+.main .wrapper .email {
+  padding: 0 25px;
+  margin-top: 39px;
+}
+.main .wrapper .email .email__inp {
+  margin-top: 8px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  width: 415px;
+  height: 45px;
+  padding-left: 15px;
+}
+.main .wrapper .last__btn {
+  padding: 0 25px;
+  margin-top: 39px;
+}
+.main .wrapper .last__btn .btn {
+  margin-top: 88px;
+  border-radius: 6px;
+  background: #01bab3;
+  border: none;
+  color: #fff;
+  width: 415px;
+  height: 45px;
+  padding-left: 15px;
+}
+.main .wrapper .last__btn .btn:hover {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main .wrapper .last__btn .btn:hover:active {
+  opacity: 7;
+  transform: scale(0.9);
+  background: #d9d9d9;
+}/*# sourceMappingURL=contacts.css.map */
